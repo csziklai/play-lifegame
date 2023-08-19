@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cassandra Sziklai">
+    <title>Life Game</title>
+
+    <meta property="og:title" content="Life Game">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="handlebars.min.js"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+    
+        <article class="space-page">
+            <p id="you-landed">You landed on: </p>
+            <h1 class="instruct">{{this.title}}</h1> 
+            <img class="landing-image" src="{{this.image}}">
+            <p class="salary">{{this.details}}</p>
+            <button id="go-roll" class="go-roll">next</button>
+
+        </article>
+    </script>
+</head>
+<body>
+    <div id="dice-roll">
+        <p id="click-roll">Click to roll the dice</p>
+        <img id="dice" src="images/dice.png" alt="dice image">
+        <p id="roll-result">You got: </p>
+        
+        <button id="next">next</button>
+    </div>
+
+    <article id="information">
+        
+    </article>
+
+    <div id="finished">
+        <h1>You've reached the end of life game! Thanks for playing!</h1>
+        <h1 class="emojis">🥳 🥳</h1>
+
+        <a href="index.html">
+            <button>play again</button>
+        </a>
+    </div>
+
+    <script src="dice_roll.js"></script>
+</body>
