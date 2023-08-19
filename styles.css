@@ -1,0 +1,218 @@
+* {
+    background-color: #11106D;
+    margin: auto;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 140px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 4.4rem;
+    font-weight: normal;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    background-color: #F9EE8F;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    padding: 15px 32px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+}
+
+p {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    margin-top: 200px;
+    font-size: 1.5rem;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.q {
+    font-family: 'Henny Penny', cursive;
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.points {
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    overflow: hidden;   
+}
+
+.choices {
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.choices.left {
+    left: 50%;
+    background-color: #EF7BCF;
+}
+
+.choices.right {
+    right: 50%;
+    background-color: #59C671;
+}
+
+.instruct {
+    margin-top: 50px; 
+}
+
+.play {
+    margin-top: 70px;
+}
+
+.draw-card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    border-radius: 10px;
+    height: 280px;
+    width: 223px;
+    background: linear-gradient(#ffffff, #d9d9d9);
+    border: thick solid #F9EE8F;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.one {
+    transform: rotate(-40deg);
+}
+
+.card.two {
+    transform: rotate(-20deg);
+}
+
+.card.four {
+    transform: rotate(20deg);
+}
+
+.card.five {
+    transform: rotate(40deg);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 200px;
+
+}
+
+.landing-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 300px;
+}
+
+.job-title{
+    font-size: 1.6rem;
+    margin-top: 50px;
+}
+
+.salary {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.picked {
+    margin-top: 70px;
+}
+
+#dice {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    cursor: pointer;
+}
+
+#roll-result {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#click-roll {
+    margin-bottom: 50px;
+}
+
+#you-landed {
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+
+.instruct {
+    font-size: 2.7rem;
+    margin-top: 40px;
+}
+
+.emojis {
+    margin-bottom: 140px;
+}
+button {
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+    #you-landed {
+        font-size: 1.1rem;
+    }
+    .instruct {
+        font-size: 2.4rem;
+    }
+    .job-title {
+        font-size: 1.4rem;
+    }
+
+    /* .p {
+        font-size: 1.2rem;
+    } */
+}
