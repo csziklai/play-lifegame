@@ -8,27 +8,27 @@ function randomCardGenerator() {
 const context = {
     cards: [
         {
-            image: 'images/engineer.png',
+            image: '../images/engineer.png',
             jobTitle: 'Civil Engineer',
             pay: 85000
         },
         {
-            image: 'images/business.png',
+            image: '../images/business.png',
             jobTitle: 'Accountant',
             pay: 70000
         },
         {
-            image: 'images/doctor.png',
+            image: '../images/doctor.png',
             jobTitle: 'Doctor',
             pay: 150000
         },
         {
-            image: 'images/scientist.png',
+            image: '../images/scientist.png',
             jobTitle: 'Lab Assistant',
             pay: 60000
         },
         {
-            image: 'images/software.png',
+            image: '../images/software.png',
             jobTitle: 'Software Engineer',
             pay: 90000
         }

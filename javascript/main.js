@@ -8,27 +8,27 @@ try {
     const context = {
         cards: [
             {
-                image: 'images/waiter.png',
+                image: '../images/waiter.png',
                 jobTitle: 'Server',
                 pay: 40000
             },
             {
-                image: 'images/mechanic.png',
+                image: '../images/mechanic.png',
                 jobTitle: 'Mechanic',
                 pay: 50000
             },
             {
-                image: 'images/flight_attendant.png',
+                image: '../images/flight_attendant.png',
                 jobTitle: 'Flight Attendant',
                 pay: 65000
             },
             {
-                image: 'images/realtor.png',
+                image: '../images/realtor.png',
                 jobTitle: 'Realtor',
                 pay: 65000
             },
             {
-                image: 'images/athlete.png',
+                image: '../images/athlete.png',
                 jobTitle: 'Athlete',
                 pay: 80000
             }
